@@ -1,0 +1,50 @@
+@media screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 20px;
+        color: goldenrod;
+    }
+
+    .image-one {
+        flex-direction: column;
+        /* background: linear-gradient(saddlebrown,darkblue,yellow); */
+        background-image: url(./IMG/glascom2.webp);
+    }
+
+    .image-one .img  img{
+        width: 90%;
+        height: 250px;
+       
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image-two {
+        flex-direction: column;
+    }
+
+    .image-two .img  img{
+        width: 90%;
+        height: 250px;
+       
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    p {
+        text-align: center;
+    }
+}
